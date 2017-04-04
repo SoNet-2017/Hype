@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Hype_MoreLife/.idea/Hype_MoreLife.iml" filepath="$PROJECT_DIR$/../Hype_MoreLife/.idea/Hype_MoreLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Hype.iml" filepath="$PROJECT_DIR$/.idea/Hype.iml" />
+      <module fileurl="file://C:\Users\utente\WebstormProjects\Hype_MoreLife\.idea\Hype_MoreLife.iml" filepath="C:\Users\utente\WebstormProjects\Hype_MoreLife\.idea\Hype_MoreLife.iml" />
     </modules>
   </component>
 </project>
