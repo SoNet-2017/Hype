@@ -1,131 +1,327 @@
-body {
-    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #666;
-    background: #eae6d1;
-    width:100%;
-    top:0px;
-    margin-top:0px;
+@media screen and (min-width: 480px) {
+
+    body {
+        font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #666;
+        background: #eae6d1;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #393939;
+    }
+
+    h3, h4, h5, h6 {
+        color: #666666;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    th {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #e5e5e5;
+        color: #444;
+    }
+
+    td {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #e5e5e5;
+        border-right: 1px solid #ffcc00;
+    }
+
+    header {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        position: relative;
+        float: inherit;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background: #4276b6;
+        height: 76px;
+    }
+
+    #banner {
+        position: relative;
+        float: inherit;
+        height: 50px;
+        background: #ffcc00;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        top: -25px;
+        border: 1px solid #f0b500;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    section {
+        width: 70%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: relative;
+        float: right;
+        background: #fbfbfb;
+        border-radius: 3px;
+        border: 1px solid #cbcbcb;
+    }
+
+    nav {
+        width: 20%;
+        position: relative;
+        float: left;
+        text-align: right;
+    }
+
+    a {
+        color: #3399cc;
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style: none;
+        font-size: 14px;
+        line-height: 24px;
+        display: block;
+    }
+
+    nav ul a {
+        color: #666;
+    }
+
+    nav ul a:hover {
+        color: #999;
+    }
+
+    img[alt=diagram1] {
+        width: 50%;
+    }
+
+    .subsection {
+        border: 0;
+        background: transparent url("../images/hr.gif") bottom center repeat-x;
+        padding-bottom: 20px;
+    }
+
+    .subsection:last-of-type {
+        border: 0;
+        padding-bottom: 20px;
+        background: transparent;
+    }
+
+    #banner .button {
+        border: 1px solid #dba500;
+        border-radius: 5px;
+        background-color: #ffe788;
+        margin-top: 7px;
+        line-height: 14px;
+        color: #333;
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #banner #logo {
+        position: relative;
+        float: right;
+        height: 36px;
+        width: 36px;
+        right: 7px;
+        top: 7px;
+        display: block;
+        background: url(../images/octocat-logo.png);
+    }
 }
-header { background: #1E90FF;
-    top:0px;
-
-}
-
-.button{
-    weight: 20px;
-    height: 10px;
-
-}
-#banner{
-    background: yellow;
-    allign: center;
-    height: 50px;
-    weight: 200px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: -2%;
-
-}
-
-a{
-    color: #3399cc;
-    text-decoration: none;
-}
-
-nav ul{
-    padding-left: 100px;
-    font-size: 14px;
-    heigt: 24px;
-    list-style: none;
 
 
-}
+@media screen and (max-width: 480px) {
 
-nav ul a {
-    color: #666666;
+    body {
+        font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #666;
+        background: #eae6d1;
+        width: 100%;
+    }
 
-}
+    h1 {
+        font-size: 28px;
+    }
 
-nav ul a:hover {
-   color: #999999;
+    h2 {
+        font-size: 24px;
+        color: #393939;
+    }
 
-}
+    h3, h4, h5, h6 {
+        color: #666666;
+    }
 
-h1 {
-    font-size: 28px;
+    h3 {
+        font-size: 18px;
+    }
 
-    top:0px;
-    text-align: center;
-    line-height: 300%;
-    height: 90px;
-    weight: 50px;
+    th {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #e5e5e5;
+        color: #444;
+    }
 
+    td {
+        text-align: left;
+        padding: 5px 10px;
+        border-bottom: 1px solid #e5e5e5;
+        border-right: 1px solid #ffcc00;
+    }
 
+    header {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        position: relative;
+        float: inherit;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background: #4276b6;
+        height: 76px;
+    }
 
-}
+    #banner {
+        position: relative;
+        float: inherit;
+        height: 50px;
+        background: #ffcc00;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        top: -25px;
+        border: 1px solid #f0b500;
+        border-radius: 5px 5px 5px 5px;
+    }
 
-.tag-h2{
-    text-align: right;
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
 
-}
+    section {
+        padding-left: 3%;
+        padding-right: 3%;
+        position: relative;
+        float: left;
+        background: #fbfbfb;
+        border-radius: 3px;
+        border: 1px solid #cbcbcb;
+        width:100%;
+    }
 
-nav{
-    float: left;
-    margin-right: 20px;
+    nav {
+        display: block;
+        background-image: url(../images/icon_list.png);
+        background-size: 25px 25px;
+        background-repeat: no-repeat;
+        background-position: 10px 15px;
+        padding:10px;
+        min-height:30px;
+        width: 100%;
+        position: relative;
+        float: left;
+        border: 1px solid black;
+    }
 
+    a {
+        color: #3399cc;
+        text-decoration: none;
+    }
 
-}
+    nav ul {
+        list-style: none;
+        font-size: 14px;
+        line-height: 24px;
+        display: block;
+    }
 
-img [alt=diagram1] {
-    width: 50%;
+    nav ul li {
+        display: none;
+        margin: 0;
+    }
 
-}
-section{
-    margin-top: 20px;
-    background: white;
-    width: 600px;
-float: left;
-padding: 50px;}
+    nav:hover ul li {
+        display: block;
+        margin: 0 0 5px;
+    }
 
-.subsection{
-    border-left: 200px;
-    background: white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border: 0px;
-    padding-bottom: 20px;
+    nav ul a {
+        color: #666;
+    }
 
+    nav ul a:hover {
+        color: #999;
+    }
 
-}
-h2 {
+    img[alt=diagram1] {
+        width: 50%;
+    }
 
-    font-size: 26px;
-    color: #393939;
+    .subsection {
+        border: 0;
+        background: transparent url("../images/hr.gif") bottom center repeat-x;
+        padding-bottom: 20px;
+    }
 
+    .subsection:last-of-type {
+        border: 0;
+        padding-bottom: 20px;
+        background: transparent;
+    }
 
-}
+    #banner .button {
+        border: 1px solid #dba500;
+        border-radius: 5px;
+        background-color: #ffe788;
+        margin-top: 7px;
+        line-height: 14px;
+        color: #333;
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+    }
 
-h3, h4, h5, h6 {
-    color: #666666;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-
-th {
-    text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
-    color: #444;
-}
-
-td {
-    text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
-    border-right: 1px solid #ffcc00;
+    #banner #logo {
+        position: relative;
+        float: right;
+        height: 36px;
+        width: 36px;
+        right: 7px;
+        top: 7px;
+        display: block;
+        background: url(../images/octocat-logo.png);
+    }
+    .subsection table
+    {
+        table-layout: fixed;
+        width: 100%;
+        word-wrap: break-word;
+    }
 }
 
 
