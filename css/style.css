@@ -2,18 +2,20 @@
 
     body {
         font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #666;
+        color: #3D2B1F;
         background: #eae6d1;
         width: 100%;
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 50px;
+        color: white;
+
     }
 
     h2 {
         font-size: 24px;
-        color: #393939;
+        color: #960018;
     }
 
     h3, h4, h5, h6 {
@@ -35,7 +37,7 @@
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #ffcc00;
+        border-right: 1px solid #F0DC82;
     }
 
     header {
@@ -48,7 +50,7 @@
         right: 0;
         width: 100%;
         text-align: center;
-        background: #4276b6;
+        background:#F0DC82;
         height: 76px;
     }
 
@@ -56,12 +58,12 @@
         position: relative;
         float: inherit;
         height: 50px;
-        background: #ffcc00;
+        background: #960018;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         top: -25px;
-        border: 1px solid #f0b500;
+        border: 1px solid #F7F7F7;
         border-radius: 5px 5px 5px 5px;
     }
 
@@ -79,7 +81,7 @@
         float: right;
         background: #fbfbfb;
         border-radius: 3px;
-        border: 1px solid #cbcbcb;
+        border: 1px solid #CCCCFF;
     }
 
     nav {
@@ -90,8 +92,10 @@
     }
 
     a {
-        color: #3399cc;
+        color: #9c641e;
+        margin-left: 12px;
         text-decoration: none;
+
     }
 
     nav ul {
@@ -102,7 +106,7 @@
     }
 
     nav ul a {
-        color: #666;
+        color: #3D2B1F;
     }
 
     nav ul a:hover {
@@ -126,18 +130,18 @@
     }
 
     #banner .button {
-        border: 1px solid #dba500;
-        border-radius: 5px;
-        background-color: #ffe788;
+        border: 1px solid #fbfbfb;
+        border-radius: 8px;
+
         margin-top: 7px;
         line-height: 14px;
-        color: #333;
+        color: #fff9c4;
         display: inline-block;
         text-align: center;
         padding: 10px;
     }
 
-    #banner #logo {
+    #banner  #logo{
         position: relative;
         float: right;
         height: 36px;
@@ -187,7 +191,7 @@
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #ffcc00;
+        border-right: 1px solid #ffe788;
     }
 
     header {
@@ -208,12 +212,12 @@
         position: relative;
         float: inherit;
         height: 50px;
-        background: #ffcc00;
+        background: #F7F7F7;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         top: -25px;
-        border: 1px solid #f0b500;
+        border: 1px solid #F7F7F7;
         border-radius: 5px 5px 5px 5px;
     }
 
@@ -295,9 +299,10 @@
     }
 
     #banner .button {
-        border: 1px solid #dba500;
+        border: 1px solid #ffe788;
+
         border-radius: 5px;
-        background-color: #ffe788;
+
         margin-top: 7px;
         line-height: 14px;
         color: #333;
