@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Hype_MoreLife.iml" filepath="$PROJECT_DIR$/.idea/Hype_MoreLife.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/partenza-SoNet-Eser2.iml" filepath="$PROJECT_DIR$/.idea/partenza-SoNet-Eser2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Hype_MoreLife/.idea/Hype_MoreLife.iml" filepath="$PROJECT_DIR$/../Hype_MoreLife/.idea/Hype_MoreLife.iml" />
     </modules>
   </component>
 </project>
