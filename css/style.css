@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 
     body {
-        font: 14px/22px 'Freestyle Script', "Freestyle Script", Helvetica, Arial, sans-serif;
+        font: 14px/22px 'Freestyle Script', "Helvetica Neuet", Helvetica, Arial, sans-serif;
         color: #3D2B1F;
         background: #eae6d1;
         width: 100%;
@@ -9,8 +9,9 @@
 
     h1 {
         font-size: 50px;
+        font-family: "Freestyle Script", Times, serif;
         color: white;
-        font-style: normal;
+        font-style: italic;
     }
 
     h2 {
