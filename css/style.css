@@ -327,6 +327,11 @@
         width: 100%;
         word-wrap: break-word;
     }
+    #architettura{
+        position: relative;
+        max-width: 300px;
+        height: auto;
+    }
 }
 
 
