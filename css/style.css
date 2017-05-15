@@ -100,7 +100,7 @@
 
     nav ul {
         list-style: none;
-        font-size: 14px;
+        font-size: 20px;
         line-height: 24px;
         display: block;
     }
@@ -171,6 +171,7 @@
         font-size: 24px;
         color: #393939;
     }
+
 
     h3, h4, h5, h6 {
         color: #666666;
