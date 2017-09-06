@@ -3,20 +3,21 @@
     body {
         font: 14px/22px Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #3D2B1F;
-        background: #eae6d1;
+        background: rgba(255, 254, 238, 0);
         width: 100%;
     }
 
     h1 {
-        font: 50px 'Freestyle Script';
-        color: orangered;  font-style: normal;
+        font: 50px 'Frontage Outline';
+        color: limegreen;
+        font-style: normal;
         text-align: center;
         
     }
 
     h2 {
         font-size: 24px;
-        color: #1c7496;
+        color: forestgreen;
     }
 
     h3, h4, h5, h6 {
@@ -38,7 +39,7 @@
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #f0ebbc;
+        border-right: 1px solid #fcfff2;
     }
 
     header {
@@ -51,7 +52,7 @@
         right: 0;
         width: 100%;
         text-align: center;
-        background: #f0ebbc;
+        background: rgba(170, 255, 157, 0);
         height: 76px;
     }
 
@@ -59,7 +60,7 @@
         position: relative;
         float: inherit;
         height: 50px;
-        background: #1c7496;
+        background: rgba(220, 255, 206, 0.39);
         margin-left: auto;
         margin-right: auto;
         width: 80%;
@@ -112,7 +113,7 @@
     }
 
     nav ul a:hover {
-        color: #999;
+        color: #8dd583;
     }
 
     img[alt=diagram1] {
@@ -137,7 +138,7 @@
 
         margin-top: 7px;
         line-height: 14px;
-        color: #fff9c4;
+        color: #36c612;
         display: inline-block;
         text-align: center;
         padding: 10px;
@@ -176,7 +177,7 @@
 
 
     h3, h4, h5, h6 {
-        color: #d5c86e;
+        color: #8dd583;
     }
 
     h3 {
@@ -194,7 +195,7 @@
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #ffe788;
+        border-right: 1px solid #8dd583;
     }
 
     header {
@@ -256,7 +257,7 @@
     }
 
     a {
-        color: #3399cc;
+        color: forestgreen;
         text-decoration: none;
     }
 
@@ -302,7 +303,7 @@
     }
 
     #banner .button {
-        border: 1px solid #ffe788;
+        border: 1px solid #f0ebbc;
 
         border-radius: 5px;
 
